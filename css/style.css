@@ -1,0 +1,188 @@
+* {
+  
+    box-sizing: border-box;
+   
+
+}
+
+body,h1,h2,ul,li,p,a{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+     font-family: 'Roboto', sans-serif;
+
+}
+.bg-header{
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#2EBDC2 ;
+  }
+
+  
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-nav a{
+    font-size: 1.5em;
+    display: block;
+    padding: 10px;
+    font-weight: 600;
+    color: #3E3939;
+    
+  }
+
+  a:hover {
+    background-color:beige;
+    border-radius: 10px;
+  }
+
+  .menu-logo{
+  margin: 20px 0 20px;
+  }
+
+
+  .bg-main{
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.bg-text{
+  text-align: center;
+  color: #3E3939;
+  margin: 20px;
+}
+
+.bg-principal{
+  background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.15)100%),  url('../image/anne_PEGxWs9.jpg');
+  height:900px;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+
+.botao{
+  background-color:#2EBDC2 ;
+  border:none;
+  color:#fff ;
+  border-radius: 2px;
+  padding:20px 30px;
+  margin-right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-weight: 800;
+
+}
+
+.botao:hover{
+  background-color:#2EBDC2 ;
+  color:#3E3939;
+}
+
+.botao i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 100px;
+  margin-bottom: -880px;
+}
+
+.titulo{
+
+  text-align: center;
+  font-size: 2em;
+  padding: 15px;
+  background-color: beige;
+  color: #3E3939;
+
+}
+
+.bg-main h2{
+  margin: 0 100px 0 100px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  color:#3E3939;
+}
+
+.titulo-item{
+  font-size: 2em;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.bg-geral{
+  margin: 0 100px 0 100px;
+  line-height: 2;
+  padding:30px 0  30px 0px;
+}
+
+hr {
+	border: 0;
+  max-width: 100px;
+	border-top: 2px solid #2EBDC2;
+  
+}
+
+
+.botao-footer{
+  background-color:#2EBDC2 ;
+  border:none;
+  color:beige;
+  border-radius: 2px;
+  padding:20px 30px;
+  margin-right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.botao-footer:hover{
+  background-color:#2EBDC2 ;
+  color:#3E3939;
+}
+
+.info{
+  text-align: center;
+  color: #fff;
+}
+
+.bg-footer{
+  margin: 0 auto;
+  padding: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#2EBDC2 ;
+}
+
+
+.dado-footer{
+  padding: 30px 0 30px 0;
+  font-weight: 800;
+  color: #fff;
+  
+
+}
